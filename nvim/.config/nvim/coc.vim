@@ -1,0 +1,18 @@
+let g:coc_global_extensions = [
+    \ 'coc-css',
+    \ 'coc-diagnostic',
+    \ 'coc-emmet',
+    \ 'coc-eslint',
+    \ 'coc-git',
+    \ 'coc-html',
+    \ 'coc-json',
+    \ 'coc-pairs',
+    \ 'coc-phpls',
+    \ 'coc-php-cs-fixer',
+    \ 'coc-sh',
+    \ 'coc-snippets',
+    \ 'coc-sql',
+    \ 'https://github.com/rodrigore/coc-tailwind-intellisense',
+    \ 'coc-tslint-plugin',
+    \ 'coc-tsserver',
+\ ]
