@@ -18,6 +18,7 @@ Plug 'posva/vim-vue'
 Plug 'mattn/emmet-vim'
 Plug 'junegunn/fzf.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'vim-airline/vim-airline'
 Plug 'morhetz/gruvbox'
 
 call plug#end()
