@@ -129,3 +129,6 @@ nmap <C-p> :Files<CR>
 
 " COC
 source ~/.config/nvim/coc.vim
+
+" Prettier formatting command shortcut with :F
+command! -nargs=0 F :CocCommand prettier.forceFormatDocument
