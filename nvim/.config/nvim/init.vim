@@ -34,6 +34,9 @@ set softtabstop=4
 
 " Indentation
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType javascriptreact setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType typescript setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType typescriptreact setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType vue setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
@@ -129,6 +132,9 @@ nmap <C-p> :Files<CR>
 
 " COC
 source ~/.config/nvim/coc.vim
+
+" vim-airline to support patched fonts
+let g:airline_powerline_fonts=1
 
 " Prettier formatting command shortcut with :F
 command! -nargs=0 F :CocCommand prettier.forceFormatDocument
