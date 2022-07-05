@@ -133,6 +133,18 @@ nmap <C-p> :Files<CR>
 " COC
 source ~/.config/nvim/coc.vim
 
+" Mappings for COC
+" Use `[g` and `]g` to navigate diagnostics
+" Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
+
+" CoC Code navigation for COC
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
 " vim-airline to support patched fonts
 let g:airline_powerline_fonts=1
 
