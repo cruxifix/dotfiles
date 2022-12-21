@@ -113,4 +113,7 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/opt/homebrew/opt/mongodb-community@4.2/bin:$PATH"
 
 # Add timestamp to right hand side
-RPROMPT="[%D{%f/%m/%y} | %D{%H:%M:%S}]"
+RPROMPT="[%D{%d/%m/%y} | %D{%H:%M:%S}]"
+
+# Default editor nvim for crontab
+export EDITOR=nvim
