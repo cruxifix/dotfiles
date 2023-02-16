@@ -71,6 +71,22 @@ return require('packer').startup(function(use)
   use('saadparwaiz1/cmp_luasnip')
   use('rafamadriz/friendly-snippets')
 
+  -- LSP enhancement
+  use({
+    'jose-elias-alvarez/null-ls.nvim',
+    config = function()
+      require('cruxifix.plugins.null-ls')
+    end,
+  })
+
+  -- Pretier formatting
+  use({
+    'MunifTanjim/prettier.nvim',
+    config = function()
+      require('prettier').setup()
+    end,
+  })
+
   -- File mapper
   use({
     'theprimeagen/harpoon',
