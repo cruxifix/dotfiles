@@ -115,6 +115,10 @@ return require('packer').startup(function(use)
   use 'tpope/vim-repeat'
   use 'tpope/vim-projectionist'
   use 'tpope/vim-sleuth'
+  use 'tpope/vim-characterize'
+
+  -- Better Git log
+  use 'rbong/vim-flog'
 
   -- Testing
   use({
