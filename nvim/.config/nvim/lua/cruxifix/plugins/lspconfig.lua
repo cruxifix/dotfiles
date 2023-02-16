@@ -48,6 +48,11 @@ require('lspconfig')['tsserver'].setup{
   capabilities = capabilities,
   flags = lsp_flags,
 }
+require('lspconfig')['gopls'].setup{
+  on_attach = on_attach,
+  capabilities = capabilities,
+  flags = lsp_flags,
+}
 require("lspconfig").sumneko_lua.setup {
   on_attach = on_attach,
   capabilities = capabilities,
