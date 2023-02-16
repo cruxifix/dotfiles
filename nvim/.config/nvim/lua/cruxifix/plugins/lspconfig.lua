@@ -1,6 +1,6 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
-  ensure_installed = { "sumneko_lua" }
+  ensure_installed = { "lua_ls" }
 })
 
 -- Mappings.
@@ -53,7 +53,7 @@ require('lspconfig')['gopls'].setup{
   capabilities = capabilities,
   flags = lsp_flags,
 }
-require("lspconfig").sumneko_lua.setup {
+require("lspconfig").lua_ls.setup {
   on_attach = on_attach,
   capabilities = capabilities,
   flags = lsp_flags,
